@@ -1,0 +1,78 @@
+---
+Bezeq: 14 Years 2001
+	Tier III:
+	- 3 tier networks
+	- MPLS some layer 2
+	- DSLAM ATM L2VPN VPLS
+	- Worked strategic customers
+	Professional Services:
+	- created a new department
+	- pre-sale and post sale design and implementation
+	- PACS Picture Archive Comminucation Service (CT, MRI)
+	- Police upgrade from DMVPN to GetVPN for use of multicast voice applications
+	- CUCM for Ministry of Agriculture
+	- other HA WAN using BGP, OSPF, EIGRP 
+
+Cisco: 6 years
+	SVS: Post Sale Solution Validation Service 
+	- Scope the project (lab design, test design and completion)
+	- Creation of project documention JTPOR Joint Technical Plan of Records (all milestones)
+	- Create a DTP
+	- Responsible for creating BOM for lab
+	- Configure the Lab
+	- Create automated test cases
+	- Run the testcases
+	- Create a EoTR
+  Test Automation: ROBOT Framework
+  - Keywords 
+  - python custom keywords 
+	IOT Center:
+	- The Start up Nation
+	- Worked with venture capital groups
+	- Meet with startups from mean differnt verticals including Fintech, Smart Cities, Health and Argiculture
+	- Monitor of 3 phase pumps in water stations. 
+	- Connected to Cisco IOT industrial routers (Fog computing)
+	- Help these startups to implement their solutions using Cisco equipment (PLC)
+	- Published case study in Cisco (https://www.cisco.com/c/dam/en/us/products/collateral/se/internet-of-things/case-study-c36-737328.pdf)
+	NGENA: Next Gen Enterprise Network Alliance
+	- Alliance of Global service providers
+	- DT, BT, Claro , ATT..
+	- CVIM Red Hat OpenStack POD located at each SP connected connected mesh
+  - Scale and Performance testing as well as Service Assurance 
+  - NSO: Data modeling-driven YANG management is built on the idea of applying modeling languages to formally describe data sources and APIs. For some applications, this includes the ability to generate code from the models.  
+  - NSO (tail-f) purchased by Cisco Orchestrator
+  - NED Network Element Drivers
+  - Using NSO testing its performance by pushing tenant creation and device onboardin
+  - Scale 5000 devices testing POD capacity
+  - Service Assurance: Test both SNMP and SYSlog
+  - Syslog > Logstash > StreamSet > Kafka > finally to Moogsoft (python script pushing)
+  - Logstash: server-side data processing pipeline that allows you to collect data from a variety of sources, transform it on the fly, and send it to your desired destination.
+  - StreamSet 
+  - Kafka topics
+  - Moogsoft is consumer of Kafka topic 
+  Rakuten: 5G fully virtualized Mobile Network 
+  - Multi-vendor project Nokia Altiostar
+  - CVIM test lead
+  - build a Multi-vendor lab
+  - Documentation - Reference Guide changes
+  - Got lots of known bugs
+  - Customer Alert Rules
+  - Issue with HAProxy - shutdown one of the bonded interfaces this was causing the bonded interface not to function 
+    but the HAProxy was remaining active.  This caused inconstancy with the DB and RabbitMQ was failing
+  -  RabbitMQ in pause-minority mode
+  -  RabbitMQ high CPU usage, CVIM 3.0.0 migrated to a Red Hat version of RabbitMQ without pause-minority.
+  - Issues with flavors 
+ SDWAN: 
+  - Lab setup
+  - Viptela
+  - Use of docker for testing
+  - Ixia tools
+  - Regression test cases were failing after software update. Viptela has a shell to access top to monitor processes 
+    see high CPU with Zebra process (Zebra is a multi-server routing software which provides TCP/IP based routing protocols. Zebra turns your machine into a full powered router. Some of the features of Zebra include)
+  - CPU oversubscripting testing 2:1 ratio
+  - 8 core with hypervisor configured total 32 for both processors
+  - 2 vManages placed NUMA 0 numa.nodeAffinity 
+  - Each tenant setup 250 devices
+
+
+
